@@ -10,6 +10,7 @@ It fixes a common problem with large wireless transfers from calibre: the device
 |---|---|---|---|---|
 | **Amazon Kindle Colorsoft** | Kindle firmware (jailbroken) | v2026.07.2 | ✅ Verified | ✅ Verified |
 | **Samsung Galaxy Tab S10 FE** (SM-X520) | Android 16 | v2026.07.1 | ✅ Verified | ✅ Verified |
+| **Bigme B6** (e-ink; model ID "HiBreak") | Android 14 | v2026.07.2 | ✅ Verified | ✅ Verified |
 
 *"Verified" means the device log and system state were checked during a real calibre wireless session in November 2026.*
 
@@ -48,7 +49,7 @@ calibrekeepawake: calibre wireless patched
 
 ## Português
 
-Plugin para o KOReader que mantém o aparelho acordado **somente enquanto ele está conectado ao calibre sem fio**. Ao desconectar, volta o comportamento normal de descanso. Testado no **Kindle Colorsoft** (KOReader v2026.07.2): fica acordado durante a conexão e volta ao normal ao desconectar, as duas coisas verificadas. Também testado no **Samsung Galaxy Tab S10 FE** (Android 16, KOReader v2026.07.1), com os mesmos resultados. Para instalar, copie a pasta `calibrekeepawake.koplugin` para `koreader/plugins/` e reinicie o KOReader.
+Plugin para o KOReader que mantém o aparelho acordado **somente enquanto ele está conectado ao calibre sem fio**. Ao desconectar, volta o comportamento normal de descanso. Testado no **Kindle Colorsoft** (KOReader v2026.07.2): fica acordado durante a conexão e volta ao normal ao desconectar, as duas coisas verificadas. Também testado no **Samsung Galaxy Tab S10 FE** (Android 16, KOReader v2026.07.1) e no **Bigme B6** (e-ink, Android 14, KOReader v2026.07.2), com os mesmos resultados. Para instalar, copie a pasta `calibrekeepawake.koplugin` para `koreader/plugins/` e reinicie o KOReader.
 
 ## License
 
